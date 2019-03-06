@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Titillium+Web:100,200,300,400,500,600,700');
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+
+
+
+
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 30px;
+}
+
+.logo {
+    background-image: url("../images/logoo.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    
+
+
+
+.title {
+    
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 100;
+    font-size: 100px;
+}
+
+.about-reptiles {
+    font-size: 50px;
+    font-weight: 100;
+    
+
+}
+
+
+.lorem-text {
+    color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 80px;
+
+    
+}
+
+.navbar-fixed-bottom {
+    text-align: center;
+    border-color: #080808;
+    background-color: #222;
+    color: #fafafa;
+}
+
+
+
+.bottom {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+
+.testdiv {
+    font-family: "Titillium Web", sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.navbar .nav {
+    float: right;
+}
+
+.section-heading {
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.container {
+    
+    text-align: center;
+    color: #fafafa;
+    font-family: "Titillium Web", sans-serif;
+    font-size: large;
+
+}
+
+
+.bg-color-test {
+    background-color: #222;
+    
+    
+}
+
+
+.bg-color-name-title {
+    background-color: #222;
+    
+}
+
+
+#nav {
+    list-style-type: none;
+    position: absolute;
+    margin-bottom: 0;
+    top: 0;
+    
+}
+
+.bigbox-position {
+    background-color: #222;
+    background-size: cover;
+}
