@@ -30,7 +30,22 @@ h4 {
 
 }
     
+.about {
+    background-image: url("../images/about.jpg");
+    height: 80vh;
+}
 
+.contact {
+    background-image: url("../images/contact.jpg");
+    height: 90vh;
+}
+
+.reptiles {
+    background-image: url("../images/about.jpg");
+    background-size: auto;
+    height: 55vh;
+    
+}
 
 
 .title {
@@ -47,20 +62,33 @@ h4 {
     font-size: medium;
 }
 
-.about-reptiles {
-    font-size: 50px;
-    font-weight: 100;
-    
 
+.intro-text {
+  
+  padding-top: 5px;
 }
 
 
-.lorem-text {
-    color: #f5f5f5;
-    text-align: center;
-    padding-bottom: 80px;
+.about-reptiles-title {
+    padding: 30px;
+}
 
-    
+.iguana-title {
+    padding-bottom: 5px;
+}
+
+.btn-default {
+    margin-top: 10px;
+    background-color: #cc1010;
+    border-color: #f62533;
+    color: #fafafa;
+    border-radius: 0%;
+}
+
+.btn-default:hover {
+    background-color: #f11212;
+    color: #fafafa;
+    transition-duration: 0.4s;
 }
 
 
@@ -180,6 +208,21 @@ h4 {
 
 
 .bigbox-position {
+    
     background-color: #242829;
-    padding-top: 10px;
+    padding-top: 1px;
+    height: auto;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-width: thin;
+}
+
+
+.testbild {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    float: left;
+    border-radius: 11%;
+    
 }
