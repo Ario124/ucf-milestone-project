@@ -10,40 +10,118 @@ h4 {
 }
 
 
+/*---------------------------- Background-Color-----*/
+
+.bg-color-about-reptiles {
+
+    border-top-color: #080808;
+    border-style: solid;
+    border-width: thin;
+    background-color: #222;
+    
+}
+
+
+.bg-color-reptiles {
+    background-color: #222;
+}
+
+
+
 
 
 /*-----------------------------HEADER------------*/
 
 
+.jumbotron {
+    background-color: transparent;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+
+}
+
 .navbar .nav {
     float: right;
+    
 }
 
 
 .logo {
     background-image: url("../images/logoo.jpg");
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 
 }
     
 .about {
     background-image: url("../images/about.jpg");
-    height: 80vh;
+    height: 100vh;
 }
 
 .contact {
     background-image: url("../images/contact.jpg");
-    height: 90vh;
+    height: 100vh;
+    background-size: cover;
+}
+
+.events {
+    background-image: url("../images/reptiles.jpg");
+    height: 100vh;
+    background-size: cover;
 }
 
 .reptiles {
-    background-image: url("../images/about.jpg");
-    background-size: auto;
-    height: 55vh;
+    background-color: #222;
+
+}
+
+
+
+
+
+
+
+.reptiles2 {
+    background-image: url("../images/gila.jpg");
+    height: 90vh;
+}
+
+
+
+
+.imageone {
+    background-image: url("../images/photo-1486869791806-60f348c35402.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+
+.imagetwo {
+    background-image: url("../images/snake-reptile-black-snake.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.imagethree {
+    background-image: url("../images/Beautiful_Turtle_HD_Wallpaper.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.imagefour {
+    background-image: url("../images/tautar.jpg");
+    height: 100vh;
+    background-size: cover;
     
 }
 
@@ -53,8 +131,30 @@ h4 {
     font-family: "Titillium Web", sans-serif;
     text-align: left;
     color: #fafafa;
-    font-size: 80px;
+    margin: 60px;
 }
+
+.reptiles-title {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 360px;
+    
+}
+
+.event-description {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
 
 .head-text p {
     color: #fafafa;
@@ -64,13 +164,14 @@ h4 {
 
 
 .intro-text {
-  
+  text-align: center;
   padding-top: 5px;
 }
 
 
 .about-reptiles-title {
     padding: 30px;
+    text-align: center;
 }
 
 .iguana-title {
@@ -78,11 +179,12 @@ h4 {
 }
 
 .btn-default {
-    margin-top: 10px;
+    margin-top: 40px;
     background-color: #cc1010;
     border-color: #f62533;
     color: #fafafa;
     border-radius: 0%;
+    margin-left: 45%;
 }
 
 .btn-default:hover {
@@ -174,19 +276,59 @@ h4 {
 .footer {
     color: #fafafa;
     text-align: center;
+    border-color: #080808;
+    border-style: solid;
+    border-width: thin;
     
 }
 
-.footer .navbar-inverse {
-    background-color: #222222;
 
+.image-text  {
+    color: #fafafa;
+    text-align: center;
+    font-weight: 900;
     
+    
+}
+
+.class-text {
+    font-size: 300;
+    font-weight: 100;
 }
 
 
 
 .uppercase {
     text-transform: uppercase;
+    
+    
+}
+
+
+
+.testdio {
+    font-family: "Titillium Web", sans-serif;
+    height: 199px;
+    width: 199px;
+    background-size: contain;
+    color: #fafafa;
+    text-align: center;
+}
+
+
+
+.class-title {
+    color: #fafafa;
+    font-size: 77px;
+    padding: 20px;
+    
+}
+
+.class-short-text {
+    color: #ef3824;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
 }
 
 
@@ -207,22 +349,62 @@ h4 {
 }
 
 
-.bigbox-position {
-    
-    background-color: #242829;
-    padding-top: 1px;
-    height: auto;
-    border-bottom: solid;
-    border-bottom-color: black;
-    border-width: thin;
+
+.title-about {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.title-popular {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+}
+
+.pad-bottom {
+    padding-bottom: 50px;
+}
+
+.about-reptiles {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 
-.testbild {
-    width: 300px;
-    height: 200px;
+.iguana-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 35px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.iguana-test {
+    padding: 50px;
+}
+
+
+
+.video {
+    margin-left: 15%;
+}
+
+.popular-images {
+    width: 250px;
+    height: 150px;
     padding: 5px;
     float: left;
-    border-radius: 11%;
+    border-radius: 6%;
     
 }
