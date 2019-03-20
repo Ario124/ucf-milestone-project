@@ -2,12 +2,6 @@
 
 
 
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
 
 
 /*---------------------------- Background-Color-----*/
@@ -23,6 +17,11 @@ h4 {
 
 
 .bg-color-reptiles {
+    background-color: #222;
+}
+
+
+.bg-color-top-ten {
     background-color: #222;
 }
 
@@ -203,6 +202,41 @@ h4 {
 }
 
 
+
+
+
+
+.top-nmr {
+    background-color: #177272;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+.image-top-1 {
+    background-image: url("../images/bearded-dragon.jpg");
+    background-size: cover;
+    margin-left: 50vh;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.box-orange {
+    height: 80px;
+    width: 80px;
+    background-color: #bf4e0c;
+    position: absolute;
+    left: 35%;
+    border-radius: 10%;
+    
+}
+
 /*-----------------------------SOCIAL LINKS------------*/
 
 
@@ -300,6 +334,11 @@ h4 {
     
 }
 
+
+.padding-bottom {
+    padding-bottom: 60px;
+}
+
 .class-text {
     font-size: 300;
     font-weight: 100;
@@ -314,17 +353,19 @@ h4 {
 }
 
 
-
-.testdio {
+.top-title {
     font-family: "Titillium Web", sans-serif;
-    height: 199px;
-    width: 199px;
-    background-size: contain;
     color: #fafafa;
     text-align: center;
 }
 
 
+
+
+
+.col-md-12, .toptest {
+    padding: 40px;
+}
 
 .class-title {
     color: #fafafa;
