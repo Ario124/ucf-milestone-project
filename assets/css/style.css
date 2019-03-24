@@ -8,10 +8,8 @@
 
 .bg-color-about-reptiles {
 
-    border-top-color: #080808;
-    border-style: solid;
-    border-width: thin;
-    background-color: #222;
+ 
+    background-color: #1a181b;
     
 }
 
@@ -22,7 +20,7 @@
 
 
 .bg-color-top-ten {
-    background-color: #222;
+    background-color: #1a181b;
 }
 
 
@@ -124,14 +122,40 @@
     
 }
 
+.jumbotter {
+    font-size: 90px;
+    text-align: right;
+}
 
-.title {
+
+.reptile-home-title {
+    font-size: 77px;
+    text-align:right;
+    font-weight: 400;
+}
+
+
+.title-home {
     
     font-family: "Titillium Web", sans-serif;
     text-align: left;
     color: #fafafa;
-    margin: 60px;
+    
+    
 }
+
+
+.title-about {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 45px;
+    color: #fafafa;
+    text-align: center;
+    
+}
+
+
+
+
 
 .reptiles-title {
     font-family: "Titillium Web", sans-serif;
@@ -179,12 +203,10 @@
 
 .about-reptiles-title {
     padding: 30px;
-    text-align: center;
+    text-align: right;
 }
 
-.iguana-title {
-    padding-bottom: 5px;
-}
+
 
 .btn-default {
     margin-top: 40px;
@@ -213,29 +235,6 @@
 }
 
 
-
-
-
-
-
-.image-top-1 {
-    background-image: url("../images/bearded-dragon.jpg");
-    background-size: cover;
-    margin-left: 50vh;
-    height: 500px;
-    width: 800px;
-    margin-top: 50px;
-}
-
-.box-orange {
-    height: 80px;
-    width: 80px;
-    background-color: #bf4e0c;
-    position: absolute;
-    left: 35%;
-    border-radius: 10%;
-    
-}
 
 /*-----------------------------SOCIAL LINKS------------*/
 
@@ -334,9 +333,8 @@
     
 }
 
-
-.padding-bottom {
-    padding-bottom: 60px;
+.main-container {
+    background-color: #222;
 }
 
 .class-text {
@@ -348,15 +346,109 @@
 
 .uppercase {
     text-transform: uppercase;
-    
+}
+
+
+
+
+
+.reptile-info-item {
+    color: #fafafa;
+    padding: 5%;
+    font-size: large;
+    padding-left: 243px;
+    margin-left: 243px;
+    margin-top: 30px;
     
 }
+
+
+
+.key {
+    color: #FF8C00;
+}
+
+
+.reptile-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    vertical-align: top;
+}
+
+.reptile-info-item .key p {
+    font-weight: 500;
+}
+
+.reptile-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+
+
+.komodo-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 24px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-right: 197px;
+}
+
+.komodo-audio {
+    padding: 10px;
+    padding-left: 60px;
+
+}
+
+
+
+.komodo-dragon-title {
+    
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.komodo-info {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    font-size: large;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+
+
+.komodo-dragon {
+    background-image: url("../images/komodo-dragon.jpg");
+    height: 460px;
+    width: 580px;
+    background-size: cover;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 15px;
+    
+}
+
+
 
 
 .top-title {
     font-family: "Titillium Web", sans-serif;
     color: #fafafa;
     text-align: center;
+}
+
+.popular-reptiles-title {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 170px;
 }
 
 
@@ -367,7 +459,7 @@
     padding: 40px;
 }
 
-.class-title {
+.title-reptiles{
     color: #fafafa;
     font-size: 77px;
     padding: 20px;
@@ -376,7 +468,7 @@
 
 .class-short-text {
     color: #ef3824;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 100;
     padding: 20px;
 }
@@ -400,14 +492,13 @@
 
 
 
-.title-about {
+.title-contact {
     font-family: "Titillium Web", sans-serif;
-    color: #fafafa;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 35px;
+     color: #fafafa;
+    font-size: 77px;
+    padding: 20px;
 }
+
 
 .title-popular {
     font-family: "Titillium Web", sans-serif;
@@ -437,11 +528,22 @@
     color: #fafafa;
     text-align: center;
     padding-bottom: 10px;
+    
+}
+
+.about-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 45px;
+    color: #fafafa;
+    text-align: center;
+    padding: 50px;
+    
 }
 
 
+
 .iguana-test {
-    padding: 50px;
+    padding-bottom: 40px;
 }
 
 
