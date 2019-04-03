@@ -1,4 +1,4 @@
-Reptiles
+#Reptiles
 
 ----- The main idea for this project is to display images about reptiles, and inform the visitors about reptiles. -----
 
