@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -9,47 +11,83 @@
         <title>Reptiles | Contact</title>
 </head>
 <body>
-      <nav class="navbar navbar-default navbar-inverse">
+      <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand"></a>
+          </div>
+              <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="reptiles.html">Reptiles</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
+              </div>
       </nav>
       
           <header class="container-fluid">
               <div class="row">
                     <div class="col-md-12 contact">
-                        <div class="col-md-4">
-                            <div class="jumbotron title-contact">
-                                <h1 class="uppercase">Contact</h1>
+                        <div class="">
+                            <div class="col-xs-12">
+                                <h1 class="uppercase contact-title">Contact</h1>
                             </div>
                         </div>
                     </div>
               </div>
-              <div class="row">
-                  <div class="container-fluid bg-color-about-reptiles">
-                      <div class="col-md-6">
-                          <div>
-                              <div>
-                                  <h1 class="title-contact">Contact</h1>
-                              </div>
-                          </div>
-                      </div>
-
-                    <div class="pad-bottom col-xs-12 col-md-6 col-lg-6">
-                
-                      </div>
-                  </div>
-              </div>
+             
           </header>
       
       
    
-    <section>
-    </section>
+        <section class="container">
+            <div class="row bg-color-contact">
+                <div>
+                <h3 class="contact-heading uppercase text-center">Get in touch with us today!</h3>
+            </div>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailadress" placeholder="Email" required/>
+                    <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required/>
+                    <textarea rows="5" name="summary" class="form-control" id="summary" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Message</button>
+                </form>
+            </div>
+            
+                <span><i class="fa fa-info-circle fa-2x"></i></span><h1 class="uppercase contact-info">Information</h1>
+                  <div>
+                      <div class="col-md-6">
+                          <div>
+                    <div class="reptile-info-item">
+                        <div class="key">
+                            <p class="uppercase">Address:</p>
+                        </div>
+                        <div class="value-contact">
+                            <p>4027  Daylene Drive, Detroit, MI USA</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Phone:</p>
+                        </div>
+                            <div class="value-contact">
+                            <p>555 785 1034784</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Email:</p>
+                        </div>
+                        <div class="value-contact">
+                            <p>reptiles_contact@hotmail.com</p>
+                        </div>
+        
+                    </div>
+            </div>
+        </section>
     
     <footer class="uppercase footer">
         <div class="nav navbar-inverse">

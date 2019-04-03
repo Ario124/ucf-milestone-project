@@ -13,9 +13,14 @@
     
 }
 
+.bg-color-contact {
+    background-color: #222;
+}
+
 
 .bg-color-reptiles {
     background-color: #222;
+    
 }
 
 
@@ -30,6 +35,14 @@
 /*-----------------------------HEADER------------*/
 
 
+
+.fa-info-circle {
+    padding-top: 40px;
+   
+}
+
+
+
 .jumbotron {
     background-color: transparent;
 }
@@ -39,6 +52,19 @@
     margin-bottom: 0;
 
 }
+
+.contact-heading {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 100;
+}
+
+
+
+.navbar-nav {
+    margin: 0;
+}
+
 
 .navbar .nav {
     float: right;
@@ -57,20 +83,34 @@
 
 }
     
+    .divider {
+        border-color: #FF8C00;
+    border-style: solid;
+    border-width: thin;
+    height: 1px;
+    width: 95%;
+    background-color: transparent;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    }
+    
+    
+    
 .about {
     background-image: url("../images/about.jpg");
-    height: 100vh;
+    height: 35vh;
+    background-size: cover;
 }
 
 .contact {
     background-image: url("../images/contact.jpg");
-    height: 100vh;
+    height: 35vh;
     background-size: cover;
 }
 
 .events {
     background-image: url("../images/reptiles.jpg");
-    height: 100vh;
+    height: 94vh;
     background-size: cover;
 }
 
@@ -80,7 +120,11 @@
 }
 
 
-
+.sub-text {
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-weight: 100;
+}
 
 
 
@@ -97,9 +141,7 @@
     background-image: url("../images/photo-1486869791806-60f348c35402.jpg");
     height: 100vh;
     background-size: cover;
-    
 }
-
 
 .imagetwo {
     background-image: url("../images/snake-reptile-black-snake.jpg");
@@ -129,10 +171,14 @@
 
 
 .reptile-home-title {
-    font-size: 77px;
-    text-align:right;
+    font-size: 83px;
+    text-align:center;
     font-weight: 400;
+    padding-left: 50%;
 }
+
+
+
 
 
 .title-home {
@@ -147,23 +193,33 @@
 
 .title-about {
     font-family: "Titillium Web", sans-serif;
-    font-size: 45px;
+    font-size: 30px;
+    font-weight: 100;
     color: #fafafa;
     text-align: center;
+
     
 }
 
 
 
+.country {
+    color: #FF8C00;
+}
+
+.country-upcoming {
+    color: #65b90c;
+}
 
 
-.reptiles-title {
+
+.event-title {
     font-family: "Titillium Web", sans-serif;
     text-align: center;
     color: #fafafa;
     font-size: 40px;
-    font-weight: 300;
-    padding-top: 360px;
+    font-weight: 100;
+    padding-top: 380px;
     
 }
 
@@ -183,6 +239,9 @@
     font-size: 20px;
     font-weight: 300;
 }
+
+
+
 
 
 
@@ -209,12 +268,13 @@
 
 
 .btn-default {
-    margin-top: 40px;
+    margin-top: 18px;
     background-color: #cc1010;
     border-color: #f62533;
     color: #fafafa;
     border-radius: 0%;
-    margin-left: 45%;
+    margin-left: 33%;
+    margin-bottom: 10px;
 }
 
 .btn-default:hover {
@@ -224,7 +284,20 @@
 }
 
 
+.contact-info {
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 24px;
+}
 
+
+.value-contact {
+    display: inline-block;
+    position: relative;
+    color: #FF8C00;
+    width: 60%;
+    font-size: 14px;
+}
 
 
 
@@ -364,8 +437,9 @@
 
 
 
+
 .key {
-    color: #FF8C00;
+    color: #fafafa;
 }
 
 
@@ -384,6 +458,7 @@
     display: inline-block;
     position: relative;
     width: 60%;
+    color: #FF8C00;
 }
 
 
@@ -410,16 +485,26 @@
     
     margin-top: 30px;
     font-size: 30px;
-    padding: 30px;
+    padding: 21px;
 }
 
 .komodo-info {
     font-family: "Titillium Web", sans-serif;
     color: #fafafa;
-    font-size: large;
-    margin-left: 500px;
-    margin-right: 500px;
+    font-size: medium;
 }
+
+
+
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+}
+
+
 
 
 
@@ -434,6 +519,47 @@
     border-width: 15px;
     
 }
+
+.black-mamba {
+    background-image: url("../images/black-mamba.jpg");
+    height: 460px;
+    width: 580px;
+    background-size: 117%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 15px;
+    margin-top: 50px;
+}
+
+
+.saltwater-crocodile {
+    background-image: url("../images/saltwater-crocodile.jpg");
+    height: 460px;
+    width: 580px;
+    background-size: 117%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 15px;
+    margin-top: 50px;
+}
+
+.king-cobra {
+    background-image: url("../images/king-cobra.jpg");
+    height: 460px;
+    width: 580px;
+    background-size: 124%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 15px;
+    margin-top: 50px;
+}
+
 
 
 
@@ -454,11 +580,6 @@
 
 
 
-
-.col-md-12, .toptest {
-    padding: 40px;
-}
-
 .title-reptiles{
     color: #fafafa;
     font-size: 77px;
@@ -467,10 +588,14 @@
 }
 
 .class-short-text {
-    color: #ef3824;
+    color: #FF8C00;
     font-size: 24px;
     font-weight: 100;
     padding: 20px;
+}
+
+.info-details {
+    display:table-cell ;
 }
 
 
@@ -481,53 +606,85 @@
 }
 
 
+
+.contact-title{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+.form-control {
+    background-color: #191616;
+    color: #fafafa;
+    border-color: #ff5b00;
+    border-style: solid;
+}
+
+
+.events-mail .form-control {
+    width: 75%;
+    margin-left: 13%;
+    background-color: #191616;
+    color: #fafafa;
+    border-color: #ff5b00;
+    border-style: solid;
+    
+}
+
+
+
+.center-block {
+    background-color: #cc1010;
+    border-color: #f62533;
+    border-radius: 0%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    
+}
+
 .container {
     
     text-align: center;
     color: #fafafa;
     font-family: "Titillium Web", sans-serif;
-    font-size: large;
 
 }
 
 
-
-.title-contact {
-    font-family: "Titillium Web", sans-serif;
-     color: #fafafa;
-    font-size: 77px;
-    padding: 20px;
-}
 
 
 .title-popular {
     font-family: "Titillium Web", sans-serif;
     color: #fafafa;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
-    padding: 50px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    font-weight: 300;
 }
 
 .pad-bottom {
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 .about-reptiles {
     font-family: "Titillium Web", sans-serif;
     color: #fafafa;
-    font-size: large;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+    font-size: medium;
 }
 
 
 .iguana-title {
     font-family: "Titillium Web", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: #fafafa;
     text-align: center;
     padding-bottom: 10px;
+    font-weight: 300;
     
 }
 
@@ -536,27 +693,356 @@
     font-size: 45px;
     color: #fafafa;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+    font-weight: 100;
     
+}
+
+
+
+
+.iguana-test222 {
+    
+ padding-bottom: 40px;
 }
 
 
 
 .iguana-test {
-    padding-bottom: 40px;
+    
+ padding-bottom: 30px;
+     
 }
 
 
 
-.video {
-    margin-left: 15%;
+@media (max-width: 768px) {
+    .contact {
+
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    .logo {
+    height: 35vh;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+}
+
+@media (max-width: 991px) {
+    
+    .logo {
+    
+    
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+}
+
+
+
+@media (min-width: 768px) {
+    .iguana-test {
+        max-width: 575px;
+        height: 325px;
+        margin-bottom: 80px;
+        margin-left: 10%;
+    
+    }
+}
+
+@media (min-width: 991px) {
+    .iguana-test {
+        max-width: 575px;
+        min-height: 325px;
+        margin-left: 25%;
+        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .iguana-test {
+        max-width: 575px;
+        max-height: 325px;
+        margin-bottom: 40px;
+    
+        
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+
+.reptile-home-title {
+    padding-left: 33%;
+    width: 0;
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+.title-reptiles {
+    padding-left: 0;
+    width: 0;
+    font-size: 57px;
+    display: table-header-group;
+    font-weight: 100;
+    
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+.reptile-info-item, .komodo-info {
+    padding-left: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+}
+
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+.reptile-info-item {
+    padding-left: 15px;
+    padding-top: 75px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.komodo-video {
+    height: 300px;
+    width: 497px;
+}
+
+}
+
+@media (min-width: 1200px) {
+    .komodo-info {
+
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-bottom: 40px;
+        
+
+    }
+    .reptile-info-item {
+    padding-left: 0;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.komodo-info {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.reptile-info-item {
+    padding-left: 200px;
+}
+
+.iguana-test222 {
+    padding-left: 20px;
+}
+
+.komodo-title {
+    padding-left: 200px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.reptile-info-item, .komodo-info {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024x){
+
+.iguana-test222 {
+    padding-left: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.komodo-title {
+    padding-right: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+.imageone, .imagetwo, .imagethree, .imagefour {
+  width: 100%;
+  height: 430px;
+}
+
+.popular-reptiles-title {
+    margin-bottom: 20px;
+}
+
+.komodo-title {
+    padding-right: 0;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.imageone, .imagetwo, .imagethree, .imagefour
+{
+    width: 49%;
+    height: 500px;
+    margin-left: 4px;
+    padding-right: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.navbar {
+     border-radius: 0;
+
+}
+}
+
+
+
+                        /*-----------------------------------------*/
+
+
+
+@media (max-width: 767px) {
+
+.komodo-dragon, .black-mamba, .saltwater-crocodile, .king-cobra {
+    max-height: 210px;
+    max-width: 310px;
+    background-size: cover;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 5px;
+    
+}
+
+}
+
+
+
+@media (max-width: 767px) {
+
+.komodo-video {
+ 
+ max-height: 220px;
+ max-width: 335px ;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+.divider {
+ 
+margin-bottom: 0;
+margin-top: 0;
+}
+
+}
+
+
+
 
 .popular-images {
-    width: 250px;
-    height: 150px;
-    padding: 5px;
+    width: 100%;
+    margin-bottom: 40px;
     float: left;
     border-radius: 6%;
+    border-color: #FF8C00;
+    border-width: 2px;
+    border-style: inset;
     
+}
+
+
+
+.navbar-collapse {
+    padding: 0;
 }

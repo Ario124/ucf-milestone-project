@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -9,25 +11,29 @@
         <title>Reptiles | About</title>
 </head>
 <body>
-      <nav class="navbar navbar-default navbar-inverse">
+      <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand"></a>
+          </div>
+              <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
                     <li><a href="reptiles.html">Reptiles</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+              </div>
       </nav>
       
           <header class="container-fluid">
               <div class="row">
                     <div class="col-md-12 about">
-                        <div class="col-md-8">
-                            <div class="jumbotron title-about">
-                                <h1 class="uppercase">About</h1>
-                                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2>
-                            </div>
-                        </div>
                     </div>
               </div>
               <div class="row">
@@ -51,14 +57,16 @@
                           </div>
                       </div>
 
-                    <div class="pad-bottom col-xs-12 col-md-6 col-lg-6">
+                    <div class="container pad-bottom col-xs-12 col-md-6 col-lg-6">
                         <h3 class="title-popular">Popular Reptiles</h3>
-                        <img class="popular-images" src="assets/images/komodo-dragon.jpg" alt="Komodo Dragon">
-                        <img class="popular-images" src="assets/images/black-mamba.jpg" alt="Black Mamba">
-                        <img class="popular-images" src="assets/images/saltwater-crocodile.jpg" alt="Saltwater Crocodile">
-                        <img class="popular-images" src="assets/images/king-cobra.jpg" alt="King Cobra">
-                        <img class="popular-images" src="assets/images/gila.jpg" alt="Gila Monster">
-                        <img class="popular-images" src="assets/images/cottonmouth.jpg" alt="Cottonmouth">
+                        <h4 class="text-center">Komodo Dragon</h4>
+                        <a href="reptiles.html#komodo-drag"><img class="popular-images" src="assets/images/komodo-dragon.jpg" alt="Komodo Dragon"></a>
+                        <h4>Black Mamba</h4>
+                        <a href="reptiles.html#black-mamb"><img class="popular-images" src="assets/images/black-mamba.jpg" alt="Black Mamba"></a>
+                        <h4>Saltwater Crocodile</h4>
+                        <a href="reptiles.html#saltwater-croc"><img class="popular-images" src="assets/images/saltwater-crocodile.jpg" alt="Saltwater Crocodile"></a>
+                        <h4>King Cobra</h4>
+                        <a href="reptiles.html#king-cobr"><img class="popular-images" src="assets/images/king-cobra.jpg" alt="King Cobra"></a>
                 
                       </div>
                   </div>

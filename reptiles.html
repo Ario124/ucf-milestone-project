@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -9,20 +11,30 @@
         <title>Reptiles | Reptiles</title>
 </head>
 <body>
-      <nav class="navbar navbar-default navbar-inverse">
+      <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand"></a>
+          </div>
+              <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="reptiles.html">Reptiles</a></li>
-                    <li><a href="events.html">Events</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="reptiles.html">Reptiles</a></li>
+                    <li><a href="events.html">Events</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+              </div>
       </nav>
       
           <header class="container-fluid">
               <div class="row">
-                    <div class="col-md-12 reptiles">
-                        <div class="col-md-12">
+                    <div class="container-fluid reptiles">
+                        <div class="">
                             <div class="reptiles-title2">
                                 <h1 class="title-reptiles">Reptile Classification</h1>
                                 <h4 class="class-short-text">Today, scientists classify reptiles into four major groups known as "orders." These four reptile orders are as follows:</h2>
@@ -30,38 +42,49 @@
                         </div>
                     </div>
               </div>
+              
+                                       <!-------4 IMAGES------->  
               <div class="row">
                   <div class="bg-color-reptiles">
-                      <div class="col-md-3 imageone">
+                     <a href="#####"> 
+                     <div>
+                      <div class="col-md-3 view zoom hvr-sweep-to-bottom imageone">
                           <div class="image-text">
-                              <h1>Crocodilia</h1>
+                            <h1>Crocodilia</h1>
                           </div>
                       </div>
-                      <div class="col-md-3 imagetwo">
+                      </a>
+                      <a href="#####"> 
+                      <div class="col-md-3 hvr-sweep-to-bottom imagetwo">
                           <div class="image-text">
                               <h1>Squamata</h1>
                           </div>
                       </div>
-                      <div class="col-md-3 imagethree">
+                      </a>
+                      <a href="#####"> 
+                      <div class="col-md-3 hvr-sweep-to-bottom imagethree">
                           <div class="image-text">
                               <h1>Testudines</h1>
                           </div>
                       </div>
-                      <div class="col-md-3 imagefour">
+                      </a>
+                      <a href="#####"> 
+                      <div class="col-md-3 hvr-sweep-to-bottom imagefour">
                           <div class="image-text">
                               <h1>Sphenodontia</h1>
                           </div>
                       </div>
+                      </a>
                   </div>
-              </div>
-              <div class="row">
+                  </div>
+                                            <!-------KOMODO DRAGON------->      
                   <div class="container-fluid bg-color-top-ten">
                      <div class="col-md-12">
                          <div class="jumbotron popular-reptiles-title">
                              <h1>Popular Reptiles</h1>
                          </div>
                          <div class="top-title">
-                             <div class="container-fluid komodo-dragon"></div>
+                             <div class="container-fluid komodo-dragon" id="komodo-drag"></div>
                              <h2 class="komodo-dragon-title">The Komodo Dragon</h2>
                              <p class="komodo-info">Komodo dragons are the largest living lizards in the world. They are identified by their massive size, flat heads, bowed legs and long, thick tails. The name comes from rumors that a dragon-like creature lived on the Indonesian island of Komodo. No Western scientists had seen a Komodo dragon until 1912, according to the San Diego Zoo. Local people call them "ora," or "land crocodile."</p>
                          </div>
@@ -125,21 +148,228 @@
                       </div>
                     
                       <div class="">
-                          <div class="iguana-test">
+                          <div class="iguana-test222">
                               <h1 class="komodo-title">Komodo Dragon</h1>
                               <iframe class="komodo-video" width="695" height="390" src="https://www.youtube.com/embed/bSkJfA3XxOA"></iframe>
                           </div>
                       </div>
                   </div>
               </div>
-             </div>
+                  <hr class="divider"></hr>
+                 </div>
+                                             <!-------BLACK MAMBA------->        
                   <div class="container-fluid bg-color-top-ten">
-                     <div class="col-md-12">
-                         <div class="jumbotron top-title">
-                             <div class="container-fluid komodo-dragon"></div>
-                             <h2 class="komodo-dragon-title">The Komodo Dragon</h2>
+                         <div class="top-title">
+                             <div class="container-fluid black-mamba" id="black-mamb"></div>
+                             <h2 class="komodo-dragon-title">Black Mamba</h2>
+                             <p class="komodo-info">Black mambas are fast, nervous, 
+                             lethally venomous, and when threatened, highly aggressive. They have been blamed for numerous human deaths, and African myths exaggerate their capabilities to legendary proportions. 
+                             For these reasons, the black mamba is widely considered the world's deadliest snake.</p>
                          </div>
+                      
+                      <div class="row">
+                  <div class="container-fluid bg-color-about-reptiles">
+                      <div class="col-md-6">
+                          <div>
+                    <div class="reptile-info-item">
+                        <div class="key">
+                            <p class="uppercase">Name:</p>
+                        </div>
+                        <div class="value">
+                            <p>Black Mamba</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Order:</p>
+                        </div>
+                        <div class="value">
+                            <p>Squamata</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Class:</p>
+                        </div>
+                        <div class="value">
+                            <p>Reptilia</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Life Span:</p>
+                        </div>
+                        <div class="value">
+                            <p>11 or more years</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Size:</p>
+                        </div>
+                        <div class="value">
+                            <p>Up to 14 feet</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Weight:</p>
+                        </div>
+                        <div class="value">
+                            <p>Up to 3.5 pounds</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Diet:</p>
+                        </div>
+                        <div class="value">
+                            <p>Carnivore</p>
+                        </div>
+                    </div>
+                          </div>
                       </div>
+                    
+                      <div class="">
+                          <div class="iguana-test222">
+                              <h1 class="komodo-title">Black Mamba</h1>
+                              <iframe class="komodo-video" width="695" height="390" src="https://www.youtube.com/embed/l8f4moBLpEU"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <hr class="divider"></hr>
+                  </div>
+             
+                                              <!-------SALTWATER CROCODILE------->        
+                  <div class="container-fluid bg-color-top-ten">
+                         <div class="top-title">
+                             <div class="container-fluid saltwater-crocodile" id="saltwater-croc"></div>
+                             <h2 class="komodo-dragon-title">Saltwater Crocodile</h2>
+                             <p class="komodo-info">Average-size males reach 17 feet and 1,000 pounds, but specimens 23 feet long and weighing 2,200 pounds are not uncommon.
+                             Classic opportunistic predators, they lurk patiently beneath the surface near the water's edge, waiting for potential prey to stop for a sip of water.</p>
+                         </div>
+                      
+                      <div class="row">
+                  <div class="container-fluid bg-color-about-reptiles">
+                      <div class="col-md-6">
+                          <div>
+                    <div class="reptile-info-item">
+                        <div class="key">
+                            <p class="uppercase">Name:</p>
+                        </div>
+                        <div class="value">
+                            <p>Saltwater Crocodile</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Order:</p>
+                        </div>
+                        <div class="value">
+                            <p>Crocodilia</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Class:</p>
+                        </div>
+                        <div class="value">
+                            <p>Reptilia</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Life Span:</p>
+                        </div>
+                        <div class="value">
+                            <p>70 years</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Size:</p>
+                        </div>
+                        <div class="value">
+                            <p>Up to 20 feet</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Weight:</p>
+                        </div>
+                        <div class="value">
+                            <p>1,000 pounds</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Diet:</p>
+                        </div>
+                        <div class="value">
+                            <p>Carnivore</p>
+                        </div>
+                    </div>
+                          </div>
+                      </div>
+                    
+                      <div class="">
+                          <div class="iguana-test222">
+                              <h1 class="komodo-title">Saltwater Crocodile</h1>
+                              <iframe class="komodo-video" width="695" height="390" src="https://www.youtube.com/embed/1qVbU9ntEYU"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <hr class="divider"></hr>
+                  </div>
+                  
+                                              <!-------KING COBRA------->        
+                  <div class="container-fluid bg-color-top-ten">
+                         <div class="top-title">
+                             <div class="container-fluid king-cobra" id="king-cobr"></div>
+                             <h2 class="komodo-dragon-title">King Cobra</h2>
+                             <p class="komodo-info">King cobras can reach 18 feet in length, making them the longest of all venomous snakes.
+                             When confronted, they can raise up to one-third of their bodies straight off the ground and still move forward to attack. 
+                             They will also flare out their iconic hoods and emit a bone-chilling hiss that sounds almost like a growling dog.</p>
+                         </div>
+                      
+                      <div class="row">
+                  <div class="container-fluid bg-color-about-reptiles">
+                      <div class="col-md-6">
+                          <div>
+                    <div class="reptile-info-item">
+                        <div class="key">
+                            <p class="uppercase">Name:</p>
+                        </div>
+                        <div class="value">
+                            <p>King Cobra</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Order:</p>
+                        </div>
+                        <div class="value">
+                            <p>Squamata</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Class:</p>
+                        </div>
+                        <div class="value">
+                            <p>Reptilia</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Life Span:</p>
+                        </div>
+                        <div class="value">
+                            <p>20 or more years</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Size:</p>
+                        </div>
+                        <div class="value">
+                            <p>Up to 18 feet</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Weight:</p>
+                        </div>
+                        <div class="value">
+                            <p>Up to 20 pounds</p>
+                        </div>
+                        <div class="key">
+                            <p class="uppercase">Diet:</p>
+                        </div>
+                        <div class="value">
+                            <p>Carnivore</p>
+                        </div>
+                    </div>
+                          </div>
+                      </div>
+                    
+                      <div class="">
+                          <div class="iguana-test222">
+                              <h1 class="komodo-title">King Cobra</h1>
+                              <iframe class="komodo-video" width="695" height="390" src="https://www.youtube.com/embed/VkEhBeLYhek"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                  </div>
           </header>
       
       

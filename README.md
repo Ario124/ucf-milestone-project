@@ -12,6 +12,12 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 FEATURES
 
 
+Existing features
+
+*Feature 1 - In homepage Allows user to hover and click 'Read More' button to get to about.html
+*Feature 2 - In reptiles allows user to hover through images and get responsive sweep to bottom.
+
+
 TECHNOLOGIES USED
 
 
