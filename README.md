@@ -40,6 +40,7 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 * Subscribe - User should get a message back when successfully subscribed.
 * Contact Form - User should get a message back when message has been sent.
 * Social Links - Should connect to social media accounts.
+* -------------------------------------------------------------------------------------- bootstrap strips for reptile classes, showing danger level, extinction rate, more
 
 
 # TECHNOLOGIES USED

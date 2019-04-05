@@ -29,7 +29,25 @@
 }
 
 
+.bg-crocodilia {
+    background-color: #555;
 
+}
+
+.bg-squamata {
+    background-color: #444;
+
+}
+
+.bg-testudines {
+    background-color: #667;
+
+}
+
+.bg-sphenodontia {
+    background-color: #778;
+
+}
 
 
 /*-----------------------------HEADER------------*/
@@ -39,6 +57,17 @@
 .fa-info-circle {
     padding-top: 40px;
    
+}
+
+
+
+.classification-head {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 100;
+    padding: 20px;
 }
 
 
@@ -86,12 +115,11 @@
     .divider {
         border-color: #FF8C00;
     border-style: solid;
-    border-width: thin;
     height: 1px;
     width: 95%;
     background-color: transparent;
-    margin-top: 150px;
-    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     }
     
     
@@ -495,7 +523,6 @@
     color: #fafafa;
     text-align: center;
     padding-bottom: 7px;
-    padding-right: 197px;
 }
 
 .komodo-audio {
@@ -586,6 +613,36 @@
 }
 
 
+.crocodilia-pic {
+    background-image: url("../images/crocodilia.jpg");
+    height: 37vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.squamata-pic {
+    background-image: url("../images/squamata.jpg");
+    height: 37vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.testudines-pic {
+    background-image: url("../images/testudines.jpg");
+    height: 37vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.sphendontia-pic {
+    background-image: url("../images/sphendontia.jpg");
+    height: 37vh;
+    width: 100%;
+    background-size: cover;
+}
 
 
 
@@ -607,8 +664,9 @@
 
 .title-reptiles{
     color: #fafafa;
-    font-size: 77px;
-    padding: 20px;
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: 100;
     
 }
 
@@ -840,19 +898,6 @@
 
 
 
-@media (max-width: 767px) {
-
-.title-reptiles {
-    padding-left: 0;
-    width: 0;
-    font-size: 57px;
-    display: table-header-group;
-    font-weight: 100;
-    
-}
-
-}
-
 
 
 @media (max-width: 767px) {
@@ -1003,19 +1048,8 @@
 
 .komodo-video {
  
- max-height: 220px;
+ max-height: 187px;
  max-width: 335px ;
-}
-
-}
-
-
-@media (max-width: 767px) {
-
-.divider {
- 
-margin-bottom: 0;
-margin-top: 0;
 }
 
 }
