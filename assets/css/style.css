@@ -30,7 +30,7 @@
 
 
 .bg-crocodilia {
-    background-color: #555;
+    background-color: #2a4844;
 
 }
 
@@ -50,6 +50,9 @@
 }
 
 
+
+
+
 /*-----------------------------HEADER------------*/
 
 
@@ -66,7 +69,17 @@
     font-size: 55px;
     text-align: center;
     color: #fafafa;
-    font-weight: 100;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.species-title {
+    
+    font-family: "Titillium Web", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 300;
     padding: 20px;
 }
 
@@ -75,6 +88,71 @@
 .jumbotron {
     background-color: transparent;
 }
+
+
+
+.list-group-item-success {
+    color: #FF8C00;
+    background-color: #30312f;
+}
+
+
+.list-group-item-info {
+    color: #FF8C00;
+    background-color: #3b3c3a;
+
+}
+
+.list-group-item-danger {
+    color: #FF8C00;
+    background-color: #30312f;
+
+
+}
+
+
+.classification-list-title {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    padding-bottom: 15px;
+    color: #fafafa;
+}
+
+
+.alligator-drop {
+    height: 40px;
+    width: 318px;
+    
+}
+
+
+
+
+.button, .box-toggle {
+    background-color: #222;
+    border: none;
+}
+
+
+
+.list-group-item-warning {
+    color: #FF8C00;
+    background-color: #3b3c3a;
+
+}
+
+
+.list-group-item {
+    border: 1px solid #352c29;
+    
+}
+
+
+.list-group, ul {
+    list-style-type: square;
+}
+
+
 
 
 .navbar {
@@ -92,13 +170,10 @@
 
 .navbar-nav {
     margin: 0;
+    background-color: #222;
 }
 
 
-.navbar .nav {
-    float: right;
-    
-}
 
 
 .logo {
@@ -108,7 +183,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
+    margin-top: 50px;
 
 }
     
@@ -128,12 +203,14 @@
     background-image: url("../images/about.jpg");
     height: 35vh;
     background-size: cover;
+    margin-top: 50px;
 }
 
 .contact {
     background-image: url("../images/contact.jpg");
     height: 35vh;
     background-size: cover;
+    margin-top: 50px;
 }
 
 .events {
@@ -144,7 +221,7 @@
 
 .reptiles {
     background-color: #222;
-
+    margin-top: 50px;
 }
 
 
@@ -155,6 +232,18 @@
 }
 
 
+
+.thumbnail {
+    display: block;
+    border: 5px solid #ffbd44;
+    margin-bottom: 0;
+
+}
+
+.squamata-sub-title {
+    color: #ec4141;
+    padding-bottom: 15px;
+}
 
 
 .reptiles2 {
@@ -258,7 +347,8 @@
     color: #fafafa;
     font-size: 40px;
     font-weight: 100;
-    padding-top: 380px;
+    margin-top: 150%;
+    background-color: #56514f85;
     
 }
 
@@ -463,8 +553,36 @@
 
 
 
+.d-block {
+    height: 200px;
+}
+
+
+.drop-down-header {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1px;
+}
+
+
+.box-collapse {
+    padding: 0;
+}
+
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+}
+
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #FF8C00;
+    
 }
 
 
@@ -472,6 +590,10 @@
     border-color: #000;
 }
 
+
+.navbar-toggle {
+    float: none;
+}
 
 
 
@@ -1008,19 +1130,6 @@
 
 
 
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-.navbar {
-     border-radius: 0;
-
-}
-}
 
 
 
