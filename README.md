@@ -15,21 +15,36 @@ Fans who would like to take it to the next level can send a message of interest 
 
 ## User Stories: 
 
-* As a user, I want to get information about reptiles.
-* As a fan, I would like to watch videos about reptiles.
-* As a user, I want to be able to contact via mail or phone.
-* As a user, I would like to be informed whenever new events may take place.
+* As a user, I want to get information about reptiles by the click of a button.
+* As a user, I would like to click to watch videos about reptiles.
+* As a user, I want to be able to contact via mail by submitting a form, or get the phone number.
+* As a user, I would like to be informed whenever new events may take place by subscribing when clicking a button.
 
+### To work on
 
+* As a user, I want to click on a reptile name and get redirected to the wikipedia page to read more.
 I have used "Bootstrap 3.3.7" for nav and grid layout.
 
 
 # FEATURES
 
-* Read More - will take the user to another page, there they can read more about reptiles.
+## HOME
+
+
+*Video - the user can play the video, allowing reptile content to be shown on the video player
+*Read More - users can click the button if they want to read more, the user will then get redirected to Reptiles.html 
+
+
+
+
+
+
+
+
+* Read More Button - will take the user to another page, there they can read more about reptiles.
 * Iguana Video - Introduction video for the main page, visitors can play and watch the video.
 * Popular Reptiles - Pictures are clickable, leads to full content where the user can read more.
-* Videos and audio - Both video and some audio can be accessed in the reptiles page.
+* Videos and audio - Both video and some audio can be accessed in the reptiles page, click to play.
 * Subscribe - User should be able to write email and click to subscribe.
 * Contact Form - Working contact form where users can write and send a message.
 * Social Links - Hover to change color.
@@ -45,6 +60,12 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 
 # TECHNOLOGIES USED
 
+*HTML5
+*CSS3
+*Bootstrap
+*Fontawesome
+*Cloud9
+*Github
 
 # TESTING
 
