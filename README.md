@@ -4,7 +4,6 @@ The main idea for this project is to display images about reptiles, and inform t
 Users can browse through the site gaining knowledge about reptiles through text, video and some audio.
 
 
-
 # UX
 
 The primary targets are people who like reptiles.
@@ -31,12 +30,26 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 ## HOME
 
 
-*Video - the user can play the video, allowing reptile content to be shown on the video player
-*Read More - users can click the button if they want to read more, the user will then get redirected to Reptiles.html 
+* Video - the user can play the video, allowing reptile content to be shown on the video player
+* Read More Button - users can click the button if they want to read more, the user will then get redirected to Reptiles.html 
 
+## ABOUT
 
+* Images - users can click the different images, redirecting the user to a specific section in Reptiles.html 
 
+## REPTILES
 
+* Clickable Orders - this feature lets users click the images, leading to chosen order content.
+* Audio - allows user to play audio by clicking play.
+* Video - the user can play videos that contain related content.
+* Species Dropdown - the user can click the dropdown to show content from the species chosen.
+
+## EVENTS
+
+* Form - this feature allows the user to fill in email if they want to subscribe.
+* Subscribe button - if the user wants to subscribe they can click a button to do so.
+
+## CONTACT
 
 
 
