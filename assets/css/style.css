@@ -693,6 +693,7 @@
     border-radius: 50%;
     border-style: inset;
     border-width: 15px;
+    margin-top: 50px;
     
 }
 
@@ -912,7 +913,7 @@
 
 .iguana-test222 {
     
- padding-bottom: 40px;
+ padding-bottom: 170px;
 }
 
 
@@ -934,6 +935,10 @@
         background-size: cover;
         position: relative;
 
+    }
+    
+    .value-contact {
+        width: 62%;
     }
 }
 
@@ -996,23 +1001,14 @@
 
 @media (min-width: 991px) {
     .iguana-test {
-        max-width: 575px;
+        max-width: 495px;
         min-height: 325px;
         margin-left: 25%;
         
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .iguana-test {
-        max-width: 575px;
-        max-height: 325px;
-        margin-bottom: 40px;
-    
-        
-    }
-    
-}
+
 
 
 @media (max-width: 767px) {
@@ -1059,6 +1055,32 @@
 .imageone, .imagetwo, .imagethree, .imagefour {
     height: 30vh;
 }
+
+.key-contact {
+    width: 34%;
+}
+
+.reptile-info-item2 {
+    padding: 0;
+    padding-left: 0;
+    margin-left: 118px;
+}
+
+
+.events-mail .form-control {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.iguana-test {
+    max-width: 490px;
+    margin-left: 16%;
+}
+
+.reptile-info-item {
+    margin-left: 0;
+}
+
     
 }
 
@@ -1081,37 +1103,163 @@
 
 
 
+/*----------DESKTOP------------*/
 
+@media (min-width: 1024px) {
 
-@media (min-width: 1024px) and (max-width: 1200px) {
-
-.reptile-info-item {
-    padding-left: 15px;
-    padding-top: 75px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
 
 .komodo-video {
-    height: 300px;
-    width: 497px;
+    height: 411px;
+    width: 730px;
+    margin-left: 27%;
+}
+
+.reptile-home-title, .contact-title {
+    font-size: 96px;
+}
+
+.about-reptiles {
+    padding-top: 30px;
+}
+
+.about {
+    height: 99vh;
+}
+
+.popular-images {
+    width: 85%;
+    height: 54vh;
+}
+
+
+.title-popular {
+    padding-top: 35%;
+}
+
+.imageone {
+
+    background-image: url("../images/1.jpg");
+    height: 82vh;
+    width: 25%;
+    background-size: cover;
+
+}
+
+.imagetwo {
+    background-image: url("../images/2.jpg");
+    height: 82vh;
+    width: 25%;
+    background-size: cover;
+}
+
+.imagethree {
+    background-image: url("../images/3.jpg");
+    height: 82vh;
+    width: 25%;
+    background-size: cover;
+}
+
+.imagefour {
+    background-image: url("../images/4.jpg");
+    height: 82vh;
+    width: 25%;
+    background-size: cover;
+}
+
+.crocodilia-pic, .squamata-pic, .testudines-pic, .sphenodontia-pic {
+    height: 99vh;
+}
+
+.drop-down-header {
+    margin-left: 42%;
+}
+
+.collapse.in, .box-collapse {
+    margin-left: 42%;
+    width: 330px;
+}
+
+.event-title {
+    font-size: 46px;
+    margin-top: 44%;
+}
+
+.container {
+    width:100%;
+}
+
+.contact {
+    height: 70vh;
+}
+
+.key-contact {
+    width: 18%;
+}
+
+.value-contact {
+    
+    width: 74%;
+    font-size: 20px;
+}
+
+.reptile-info-item2 {
+    width: 30%;
+    margin-left: 38%;
+    font-size: 20px;
+    padding: 14px;
+    padding-bottom: 20px;
+}
+
+.form-control {
+    width: 56%;
+    margin-left: 23%;
+}
+
+.iguana-test222 {
+    margin-left: 107px;
+}
+
+.komodo-title {
+    margin-right: 112px;
+}
+
+
+.iguana-test {
+    margin-left: 25%;
+}
+
+.reptile-info-item {
+    margin-left: 27%;
 }
 
 }
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
     .komodo-info {
 
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 400px;
+        padding-right: 400px;
         padding-bottom: 40px;
         
 
     }
-    .reptile-info-item {
-    padding-left: 0;
+    
+    .audio-block {
+        margin-left: 4%;
+        padding-top: 5%;
+        padding-bottom: 40px;
     }
+
+    .reptile-info-item .key {
+        width: 18%;
+    }
+    
 }
 
 
@@ -1127,9 +1275,6 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
-}
-.reptile-info-item {
-    padding-left: 200px;
 }
 
 .iguana-test222 {
@@ -1171,8 +1316,6 @@
 @media (min-width: 768px) and (max-width: 1024px){
 
 .reptile-info-item, .komodo-info {
-    margin-left: 0;
-    margin-right: 0;
     margin-top: 0;
     padding-bottom: 30px;
 }
@@ -1231,8 +1374,13 @@
 
 .komodo-video {
  
- max-height: 187px;
- max-width: 335px ;
+ max-height: 172px;
+ max-width: 305px ;
+}
+
+.iguana-test222 {
+    padding-bottom: 55px;
+    margin-left: 15px;
 }
 
 }
@@ -1254,12 +1402,14 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px){
     
 .popular-images {
     width: 65%;
     float: none;
 }    
+
+
 
     
 }

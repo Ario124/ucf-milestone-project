@@ -22,7 +22,7 @@ Fans who would like to take it to the next level can send a message of interest 
 ### To work on
 
 * As a user, I want to click on a reptile name and get redirected to the wikipedia page to read more.
-I have used "Bootstrap 3.3.7" for nav and grid layout.
+
 
 
 # FEATURES
@@ -31,7 +31,7 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 
 
 * Video - the user can play the video, allowing reptile content to be shown on the video player
-* Read More Button - users can click the button if they want to read more, the user will then get redirected to Reptiles.html 
+* Read More Button - users can click the button if they want to read more, the user will then get redirected to About.html 
 
 ## ABOUT
 
@@ -68,19 +68,25 @@ I have used "Bootstrap 3.3.7" for nav and grid layout.
 * Subscribe - User should get a message back when successfully subscribed.
 * Contact Form - User should get a message back when message has been sent.
 * Social Links - Should connect to social media accounts.
-* -------------------------------------------------------------------------------------- bootstrap strips for reptile classes, showing danger level, extinction rate, more
 
 
 # TECHNOLOGIES USED
 
-*HTML5
-*CSS3
-*Bootstrap
-*Fontawesome
-*Cloud9
-*Github
+* HTML5             -   Used HTML5 for the layout.
+* CSS3              -   Used CSS3 to style the site.
+* Bootstrap         -   Used Bootstrap for grids and layout.
+* Fontawesome       -   Used Fontawesome to implement Icons.
+* Cloud9            -   Used Cloud9 as coding platform.
+* Github            -   Used Github to upload content.
 
 # TESTING
+
+I have tested the website and its functions, I did not find any major errors.
+
+
+
+
+
 
 
 # DEPLOYMENT
