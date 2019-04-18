@@ -82,7 +82,7 @@ I have tested the website and its functions using Chrome and I did not find any 
 
 
 ### Browsers
-* Google Chrome
+* Google Chrome  -  Galaxy S5, Tablet, Desktop
 * Internet Explorer
 * Microsoft Edge
 * Mozilla Firefox
