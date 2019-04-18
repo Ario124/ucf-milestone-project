@@ -352,6 +352,7 @@
     margin-top: 124%;
     background-color: #56514f85;
     
+    
 }
 
 .reptiles-title2 {
@@ -541,12 +542,6 @@
 .main-container {
     background-color: #222;
 }
-
-.class-text {
-    font-size: 300;
-    font-weight: 100;
-}
-
 
 
 .uppercase {
@@ -1323,7 +1318,7 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 1024x){
+@media (min-width: 768px) {
 
 .iguana-test222 {
     padding-left: 24px;

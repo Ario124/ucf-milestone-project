@@ -51,9 +51,6 @@ Fans who would like to take it to the next level can send a message of interest 
 
 ## CONTACT
 
-
-
-
 * Read More Button - will take the user to another page, there they can read more about reptiles.
 * Iguana Video - Introduction video for the main page, visitors can play and watch the video.
 * Popular Reptiles - Pictures are clickable, leads to full content where the user can read more.
@@ -81,26 +78,50 @@ Fans who would like to take it to the next level can send a message of interest 
 
 # TESTING
 
-I have tested the website and its functions, I did not find any major errors.
+I have tested the website and its functions using Chrome and I did not find any major errors.
 
 
+### Browsers
+* Google Chrome
+* Internet Explorer
+* Microsoft Edge
+* Mozilla Firefox
 
 
+### Devices
 
+* Laptop - Windows 10
+* Samsung Galaxy S8
+
+
+### Issues
+
+* Some bugs on internet explorer, display not properly shown well.
+* Shadow effect in Events.html not visible on Microsoft Edge.
+* Minor errors on Samsubg Galaxy S8, positioning of buttons not properly displayed.
 
 
 # DEPLOYMENT
 
+The deployment for this website through Github.
 
+* Github https://github.com/Ario124/ucf-milestone-project
 
 
 # CREDITS
 
---Content
-Text from https://simple.wikipedia.org/wiki/Reptile
-Text from https://www.nationalgeographic.com/animals/reptiles/
+## Content
 
---Media
+* The text for the section "About Reptiles" on Index.html comes from Wikipedia - https://simple.wikipedia.org/wiki/Reptile
+* The text for the section "About" on About.html comes from National Geographic - https://www.nationalgeographic.com/animals/reptiles/
 
 
---Acknowledgements
+
+## Media
+
+Video content comes from Youtube
+
+
+## Acknowledgements
+
+* Ive gotten inspiration from Natural Gegraphic website
