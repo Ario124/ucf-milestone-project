@@ -14,9 +14,9 @@ Fans who would like to take it to the next level can send a message of interest 
 
 ## User Stories: 
 
-* As a user, I want to get information about reptiles by the click of a button.
-* As a user, I would like to click to watch videos about reptiles.
-* As a user, I want to be able to contact via mail by submitting a form, or get the phone number.
+* As a user, I want to get information about reptiles by the click of a button (Read More) located on Index.html.
+* As a user, I would like to click to watch videos about reptiles (HOME/REPTILES)
+* As a user, I want to be able to contact via mail by submitting a form, or get the phone number (CONTACT)
 * As a user, I would like to be informed whenever new events may take place by subscribing when clicking a button.
 
 ### To work on
@@ -51,10 +51,6 @@ Fans who would like to take it to the next level can send a message of interest 
 
 ## CONTACT
 
-* Read More Button - will take the user to another page, there they can read more about reptiles.
-* Iguana Video - Introduction video for the main page, visitors can play and watch the video.
-* Popular Reptiles - Pictures are clickable, leads to full content where the user can read more.
-* Videos and audio - Both video and some audio can be accessed in the reptiles page, click to play.
 * Subscribe - User should be able to write email and click to subscribe.
 * Contact Form - Working contact form where users can write and send a message.
 * Social Links - Hover to change color.
@@ -79,6 +75,44 @@ Fans who would like to take it to the next level can send a message of interest 
 # TESTING
 
 I have tested the website and its functions using Chrome and I did not find any major errors.
+The website is working perfectly on Chrome, as it is meant to be viewed on.
+
+## Validation
+
+* CSS3 code approved, used https://jigsaw.w3.org/css-validator/
+* HTML5 code mostly accepted, used https://validator.w3.org/
+
+### User stories testing
+
+* Read More Button (HOME)
+
+1. Go to "Home" page
+2. Make sure border color works on hover by holding the mouse over the button.
+3. Click on the Read More button to see if it works.
+4. See if redirecting works properly, should be redirected to "About" page where more information is displayed, below the header image.
+
+* Video (HOME, REPTILES)
+
+1. Go to "Home" page
+2. Click to play the Iguana Video.
+3. Try to enlarge to fullscreen.
+4. Go to "Reptiles" page
+5. Click on any of the videos to play.
+
+* Contact Form (CONCTACT)
+
+1. Go to "Contact" page
+2. Try to submit empty form to see if error message appears, indicating user to fill the empty forms.
+3. Try to submit the form with invalid email address.
+4. Try to find contact information such as phone number and address.
+
+The invalid email input gets you through anyways, this should be denied.
+
+* Subscribe (EVENTS)
+
+1. Go to "Events" page
+2. Try to fill the form with a valid email.
+3. Click to subscribe.
 
 
 ### Browsers
@@ -115,7 +149,7 @@ The deployment for this website through Github.
 * The text for the section "About Reptiles" on Index.html comes from Wikipedia - https://simple.wikipedia.org/wiki/Reptile
 * The text for the section "About" on About.html comes from National Geographic - https://www.nationalgeographic.com/animals/reptiles/
 
-
+##### FIXA BUGS I DEV, TOOLS, SKRIV MERA OM TESTANDET O FORM VALIDATION. MOCKUP OSV.
 
 ## Media
 
