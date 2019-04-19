@@ -141,19 +141,25 @@ The deployment for this website through Github.
 
 * Github https://github.com/Ario124/ucf-milestone-project
 
+I managed to deploy my project through github, using my repository to save all the files.
+I used master branch to successfully host the project on Github.
+
 
 # CREDITS
+
+##### FIXA BUGS I DEV, TOOLS, SKRIV MERA OM TESTANDET O FORM VALIDATION. MOCKUP OSV.
 
 ## Content
 
 * The text for the section "About Reptiles" on Index.html comes from Wikipedia - https://simple.wikipedia.org/wiki/Reptile
 * The text for the section "About" on About.html comes from National Geographic - https://www.nationalgeographic.com/animals/reptiles/
-
-##### FIXA BUGS I DEV, TOOLS, SKRIV MERA OM TESTANDET O FORM VALIDATION. MOCKUP OSV.
+* The text for the specifications about reptiles on the "Reptiles" page comes from National Gegraphic - https://www.nationalgeographic.com/animals/reptiles/
 
 ## Media
 
-Video content comes from Youtube
+* All video content comes from Youtube - https://www.youtube.com/
+* The Photos of reptiles come from various websites, such as: http://feelgrafix.com/929558-crocodile.html   -   
+* * http://feelgrafix.com/929558-crocodile.html
 
 
 ## Acknowledgements
