@@ -26,8 +26,8 @@ Fans who would like to take it to the next level can send a message of interest 
 
 ## Wireframe Mockups
 
-* 
-*
+* [Desktop](https://github.com/Ario124/ucf-milestone-project/blob/master/assets/images/mockups/Desktop-mockup.png)
+* [Mobile](https://github.com/Ario124/ucf-milestone-project/blob/master/assets/images/mockups/Mobile-mockup.png)
 
 
 # FEATURES
@@ -83,10 +83,14 @@ Fans who would like to take it to the next level can send a message of interest 
 I have tested the website and its functions using Chrome and I did not find any major errors.
 The website is working perfectly on Chrome, as it is meant to be viewed on.
 
-## Validation
+## Validation & Devtool
 
 * CSS3 code approved, used https://jigsaw.w3.org/css-validator/
 * HTML5 code mostly accepted, used https://validator.w3.org/
+
+I have tested through devtool on Chrome and did a checkup on those errors that showed up.
+No major errors were found, only some warnings on embedded videos if using AdBlocker.
+
 
 ### User stories testing
 
@@ -152,8 +156,6 @@ I used master branch to successfully host the project on Github.
 
 
 # CREDITS
-
-##### FIXA BUGS I DEV, TOOLS, SKRIV MERA OM TESTANDET O FORM VALIDATION. MOCKUP OSV.
 
 ## Content
 
