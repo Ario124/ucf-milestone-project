@@ -24,8 +24,14 @@ Fans who would like to take it to the next level can send a message of interest 
 * As a user, I want to click on a reptile name and get redirected to the wikipedia page to read more.
 
 
+## Wireframe Mockups
+
+* 
+*
+
 
 # FEATURES
+
 
 ## HOME
 
@@ -158,10 +164,18 @@ I used master branch to successfully host the project on Github.
 ## Media
 
 * All video content comes from Youtube - https://www.youtube.com/
-* The Photos of reptiles come from various websites, such as: http://feelgrafix.com/929558-crocodile.html   -   
+
+* The Photos of reptiles come from various websites, such as
 * * http://feelgrafix.com/929558-crocodile.html
+* * https://unsplash.com/search/photos/turtle
+* * http://www.picswalls.com/pic/snake-wallpapers
+* * https://en.wikipedia.org/wiki/Black_mamba
 
 
 ## Acknowledgements
 
-* Ive gotten inspiration from Natural Gegraphic website
+* [Bootstrap](https://getbootstrap.com/docs/3.3/components/#navbar-inverted) - Used navbar from bootstrap to setup the navigation.
+* [W3School](https://www.w3schools.com/) - Used this site to browse through basic exampels that helped me polish the site. 
+
+* Ive got inspiration from Natural Gegraphic website.
+* I learned from other students on Slack.
