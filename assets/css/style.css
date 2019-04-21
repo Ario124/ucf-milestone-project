@@ -8,7 +8,6 @@
 
 .bg-color-about-reptiles {
 
- 
     background-color: #1a181b;
     
 }
@@ -22,7 +21,6 @@
     background-color: #222;
     
 }
-
 
 .bg-color-top-ten {
     background-color: #1a181b;
@@ -49,30 +47,48 @@
 
 }
 
+.main-container {
+    background-color: #222;
+}
 
+/*---------------NAVIGATION------------*/
 
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+}
 
-
-/*-----------------------------HEADER------------*/
-
-
-
-.fa-info-circle {
-    padding-top: 40px;
-   
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #FF8C00;
+    
 }
 
 
-
-.classification-head {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 55px;
-    text-align: center;
-    color: #fafafa;
-    font-weight: 300;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navbar-inverse .navbar-toggle {
+    border-color: #000;
 }
+
+
+.navbar-toggle {
+    float: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+
+}
+
+.navbar-nav {
+    margin: 0;
+    background-color: #222;
+}
+
+/*-----------------------------TITLES------------*/
 
 .species-title {
     
@@ -84,7 +100,185 @@
     padding: 20px;
 }
 
+.classification-list-title {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    padding-bottom: 15px;
+    color: #fafafa;
+}
 
+.squamata-sub-title {
+    color: #ec4141;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.classification-title {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+}
+
+.reptile-home-title {
+    font-size: 83px;
+    text-align:center;
+    font-weight: 400;
+    padding-left: 50%;
+}
+
+
+.title-home {
+    
+    font-family: "Titillium Web", sans-serif;
+    text-align: left;
+    color: #fafafa;
+    
+    
+}
+
+.title-about {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fafafa;
+    text-align: center;
+
+}
+
+.event-title {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 124%;
+    background-color: #56514f85;
+    
+    
+}
+
+.reptiles-title2 {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+.about-reptiles-title {
+    padding: 30px;
+    text-align: right;
+}
+
+.komodo-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 24px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.komodo-dragon-title {
+    
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 21px;
+}
+
+.top-title {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    text-align: center;
+}
+
+.popular-reptiles-title {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title-reptiles{
+    color: #fafafa;
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: 100;
+    
+}
+
+.contact-title{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.title-popular {
+    font-family: "Titillium Web", sans-serif;
+    color: #fafafa;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+.iguana-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 300;
+    
+}
+
+.about-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 45px;
+    color: #fafafa;
+    text-align: center;
+    padding: 30px;
+    font-weight: 100;
+    
+}
+
+
+/*-----------------------------IMAGES------------*/
+
+.logo {
+    background-image: url("../images/logoo.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+
+}
+
+
+
+
+/*-----------------------------HEADER------------*/
+
+
+.fa-info-circle {
+    padding-top: 40px;
+   
+}
+
+.classification-head {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .jumbotron {
     background-color: transparent;
@@ -112,22 +306,11 @@
 }
 
 
-.classification-list-title {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 200;
-    padding-bottom: 15px;
-    color: #fafafa;
-}
-
-
 .alligator-drop {
     height: 40px;
     width: 318px;
     
 }
-
-
-
 
 .button, .box-toggle {
     background-color: #222;
@@ -153,39 +336,10 @@
     list-style-type: square;
 }
 
-
-
-
-.navbar {
-    margin-bottom: 0;
-
-}
-
 .contact-heading {
     padding-top: 25px;
     padding-bottom: 25px;
     font-weight: 100;
-}
-
-
-
-.navbar-nav {
-    margin: 0;
-    background-color: #222;
-}
-
-
-
-
-.logo {
-    background-image: url("../images/logoo.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-top: 50px;
-
 }
     
     .divider {
@@ -241,26 +395,11 @@
 
 }
 
-.squamata-sub-title {
-    color: #ec4141;
-    padding-bottom: 15px;
-    font-size: 15px;
-}
-
 
 .reptiles2 {
     background-image: url("../images/gila.jpg");
     height: 90vh;
 }
-
-
-
-.classification-title {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-}
-
-
 
 
 .imageone {
@@ -300,39 +439,6 @@
 }
 
 
-.reptile-home-title {
-    font-size: 83px;
-    text-align:center;
-    font-weight: 400;
-    padding-left: 50%;
-}
-
-
-
-
-
-.title-home {
-    
-    font-family: "Titillium Web", sans-serif;
-    text-align: left;
-    color: #fafafa;
-    
-    
-}
-
-
-.title-about {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 30px;
-    font-weight: 100;
-    color: #fafafa;
-    text-align: center;
-
-    
-}
-
-
-
 .country {
     color: #FF8C00;
 }
@@ -342,28 +448,6 @@
 }
 
 
-
-.event-title {
-    font-family: "Titillium Web", sans-serif;
-    text-align: center;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 100;
-    margin-top: 124%;
-    background-color: #56514f85;
-    
-    
-}
-
-.reptiles-title2 {
-    font-family: "Titillium Web", sans-serif;
-    text-align: center;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 300;
-    
-}
-
 .event-description {
     font-family: "Titillium Web", sans-serif;
     text-align: center;
@@ -371,13 +455,6 @@
     font-size: 20px;
     font-weight: 300;
 }
-
-
-
-
-
-
-
 
 .head-text p {
     color: #fafafa;
@@ -390,13 +467,6 @@
   text-align: center;
   padding-top: 5px;
 }
-
-
-.about-reptiles-title {
-    padding: 30px;
-    text-align: right;
-}
-
 
 
 .btn-default {
@@ -536,13 +606,7 @@
     text-align: center;
     font-weight: 900;
     
-    
 }
-
-.main-container {
-    background-color: #222;
-}
-
 
 .uppercase {
     text-transform: uppercase;
@@ -565,33 +629,6 @@
 .box-collapse {
     padding: 0;
 }
-
-
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #222;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #FF8C00;
-    
-}
-
-
-.navbar-inverse .navbar-toggle {
-    border-color: #000;
-}
-
-
-.navbar-toggle {
-    float: none;
-}
-
 
 
 .reptile-info-item {
@@ -633,30 +670,10 @@
     color: #FF8C00;
 }
 
-
-
-
-.komodo-title {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 24px;
-    color: #fafafa;
-    text-align: center;
-    padding-bottom: 7px;
-}
-
 .komodo-audio {
     padding: 10px;
     padding-left: 60px;
 
-}
-
-
-
-.komodo-dragon-title {
-    
-    margin-top: 30px;
-    font-size: 30px;
-    padding: 21px;
 }
 
 .komodo-info {
@@ -666,19 +683,11 @@
 }
 
 
-
-
-
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
     transition: all 0.7s ease-in-out;
 }
-
-
-
-
-
 
 .komodo-dragon {
     background-image: url("../images/komodo-dragon.jpg");
@@ -764,32 +773,6 @@
     background-size: cover;
 }
 
-
-
-.top-title {
-    font-family: "Titillium Web", sans-serif;
-    color: #fafafa;
-    text-align: center;
-}
-
-.popular-reptiles-title {
-    font-family: "Titillium Web", sans-serif;
-    color: #fafafa;
-    text-align: center;
-    margin-top: 30px;
-}
-
-
-
-
-.title-reptiles{
-    color: #fafafa;
-    font-size: 50px;
-    margin-top: 0;
-    font-weight: 100;
-    
-}
-
 .class-short-text {
     color: #FF8C00;
     font-size: 24px;
@@ -807,18 +790,6 @@
     font-size: large;
     font-weight: 400;
 }
-
-
-
-.contact-title{
-    font-family: "Titillium Web", sans-serif;
-    font-size: 30px;
-    font-weight: 100;
-    color: #fafafa;
-    text-align: center;
-    margin-top: 2%;
-}
-
 
 .form-control {
     background-color: #191616;
@@ -841,7 +812,6 @@
 }
 
 
-
 .center-block {
     background-color: #cc1010;
     border-color: #f62533;
@@ -859,19 +829,6 @@
 
 }
 
-
-
-
-.title-popular {
-    font-family: "Titillium Web", sans-serif;
-    color: #fafafa;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 15px;
-    font-weight: 300;
-}
-
 .pad-bottom {
     padding-bottom: 35px;
 }
@@ -882,35 +839,10 @@
     font-size: medium;
 }
 
-
-.iguana-title {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 30px;
-    color: #fafafa;
-    text-align: center;
-    padding-bottom: 10px;
-    font-weight: 300;
-    
-}
-
-.about-title {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 45px;
-    color: #fafafa;
-    text-align: center;
-    padding: 30px;
-    font-weight: 100;
-    
-}
-
-
-
-
 .iguana-test222 {
     
  padding-bottom: 170px;
 }
-
 
 
 .iguana-test {
@@ -918,7 +850,6 @@
  padding-bottom: 30px;
      
 }
-
 
 
 @media (max-width: 768px) {
@@ -936,13 +867,6 @@
         width: 62%;
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -972,7 +896,6 @@
     background-size: cover;
     position: relative;
     
-
 }
 
 }
@@ -1002,8 +925,6 @@
         
     }
 }
-
-
 
 
 @media (max-width: 767px) {
@@ -1078,11 +999,6 @@
 
     
 }
-
-
-
-
-
 
 
 @media (max-width: 767px) {
@@ -1231,10 +1147,6 @@
 
 
 
-
-
-
-
 @media (min-width: 1200px) {
     .komodo-info {
 
@@ -1242,7 +1154,6 @@
         padding-right: 400px;
         padding-bottom: 40px;
         
-
     }
     
     .audio-block {
@@ -1256,10 +1167,6 @@
     }
     
 }
-
-
-
-
 
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1333,16 +1240,9 @@
 
 }
 
-
-
-
-
 .spacediv {
     height: 1px;
 }
-
-
-
 
 
                         /*-----------------------------------------*/
@@ -1363,8 +1263,6 @@
 
 }
 
-
-
 @media (max-width: 767px) {
 
 .komodo-video {
@@ -1379,8 +1277,6 @@
 }
 
 }
-
-
 
 .contact-readmore {
     margin-bottom: 40px;
@@ -1404,11 +1300,7 @@
     float: none;
 }    
 
-
-
-    
 }
-
 
 .popular-images {
     border-radius: 6%;
@@ -1417,8 +1309,6 @@
     border-style: inset;
     
 }
-
-
 
 .navbar-collapse {
     padding: 0;
